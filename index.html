@@ -1,249 +1,401 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>James Profile</title>		
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/app.css">
-  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>James Purchase</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.4/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/app.css"> 
+  <link rel="shortcut icon" type="image/png" href="img/icon1.png" sizes="16x16" />
+  <!-- <script async type="text/javascript" src="/_javascript/main.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
-  
 
-	
-<!-- <style>
-	.navbar	{
-		margin-bottom: 0;
-		border-radius: 0;
-		background-color: #5E4485;
-		color: #FFF;
-		padding: 1% 0;
-		font-size: 1.2em;
-		border: 0;
-			}
-	.navbar-brand {
-		float: left;
-		min-height:115px;
-		padding: 0 15px 5px;
-				  }
-	.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover { 
-	color: #FFF;
-	background-color: #5E4485;
-	}
-	.navbar-inverse .navbar-nav li a {
-		color: #D5D5D5;
-	}
-	
-	.carousel-caption{
-		top: 50%;
-		transform: translateY(-50%);
-		text-transform: uppercase;
-	}
-	.carousel-inner > .item > img {
-    margin: 0 auto;
-	}
-	.btn{
-		font-size: 18px;
-		color: #FFF;
-		padding: 12px 22px;
-		background: #5E4485;
-		border: 2px solid #FFF;
-		
-	}
-	.container{
-		margin: 4% auto;
-	}
-	#icon {
-		max-width: 200px;
-		margin: 1% auto;
-	}
-	footer{
-		width: 100%;
-		background-color: #5E4485;
-		padding: 3%;
-		color: #FFF;
-	}
-	.fa{
-		padding: 15px;
-		font-size: 25px;
-		color: #FFF;
-	}
-	.fa:hover {
-		color:#D5D5D5;
-		text-decoration: none;
-	}
-	@media (max-width: 900px){
-		.fa {
-			font-size: 20px;
-			padding:10px;
-			}
-		}
-	@media (max-width: 600px){
-		.carousel-caption {
-			display: none; 
-		}
-		#icon{
-			max-width: 150px;
-		}
-		h2 {
-			font-size:1.7em; 
-		}
-	}
-</style>	-->
-	
 </head>
 
+<!-- <style>
+
+.has-same-height .card {
+  height: 320px;
+  overflow: hidden;
+}
+
+.card-content h3 {
+  text-align: center;
+}
+
+.table-profile td,
+th {
+  border: none !important;
+}
+
+.table-profile td:first-of-type {
+  font-weight: bold;
+}
+
+.skills-content .media {
+  margin: 0 !important;
+  padding: 4px !important;
+  border: 0 !important;
+}
+
+.skills-content .progress {
+  height: 4px !important;
+}
+
+.custom-tags {
+  text-align: center !important;
+  display: block;
+}
+
+.portfolio-container .card {
+  margin-bottom: 2em;
+}
+
+.section-heading {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 6em;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tag{
+  font-size: 1rem;
+}
+
+
+
+i {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+
+</style> -->
+
 <body>
-	<nav class="navbar navbar-inverse">
-	<div	class="container-fluid">
-		<div	class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="index.html"><img src="img/BBD.png" id="icon"></a>
-		</div>
-		
-		<div class="collapse navbar-collapse" id="myNavbar"> 
-			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Testimonials</a></li>
-				<li><a href="#">Contact</a></li>	
-			</ul>
-		</div>
-	</div>
-	</nav>
-	
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1" ></li>
-			<li data-target="#myCarousel" data-slide-to="2" ></li>
-		</ol>
-	<div class="carousel-inner" role="listbox">
-		<div class="item active"> 
-				<img src="https://via.placeholder.com/1100x500">
-			<div class="carousel-caption">
-					<h1>Gallery</h1>
-					<br>
-					<button type="button" class="btn btn-default"> Learn More</button>
-			
-			</div>
-		</div> <!-----end active---->
-		<div class="item">
-			<img src="https://via.placeholder.com/1100x500">
+  <!-- Navigation bar -->
+  <nav class="navbar is-link is-fixed-top">
+    <div class="navbar-brand">
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
 
-		</div>
-		<div class="item">
-			<img src="https://via.placeholder.com/1100x500">
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#about">
+          <span class="icon">
+            <i class="fas fa-info"></i>
+          </span>
+          <span>About</span>
+        </a>
+        <a class="navbar-item" href="#resume">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Resume</span>
+        </a>
+      <!--   <a class="navbar-item" href="#portfolio">
+          <span class="icon">
+            <i class="fas fa-th-list"></i>
+          </span>
+          <span>Portfolio</span>
+        </a> -->
+        <a class="navbar-item" href="mailto:jimmy.312dev@gmail.com?Subject=Nice%20to%20meet%20you" target="_top">
+          <span class="icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span>Contact</span>
+        </a>
+      </div>
+    </div>
+  </nav>
 
-		</div>
-	</div>
-		<!---Slider Controls----> 
-		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"> </span>
-		<span class="sr-only"> Previous </span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"> </span>
-		<span class="sr-only"> Next </span>
-		</a>
-	</div>
-		<!-----End Slider---->
-	
-	<div class="container text-center">
-	<h2>About Me</h2>
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="https://via.placeholder.com/250x250" id="icon">
-				<h4>Information</h4>
-			</div>
-			<div class="col-sm-4">
-				<img src="https://via.placeholder.com/250x250" id="icon">
-				<h4>Information2</h4>
-			</div>
-			<div class="col-sm-4">
-				<img src="https://via.placeholder.com/250x250" id="icon">
-				<h4>Information3</h4>
-			</div>
-		</div>	
-	</div>
-	<div class="container">
-		<div class="row">
-		<div class="col-md-6">
-			<h4>The standard Lorem Ipsum passage, used since the 1500s</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-			 </div>
-		<div class="col-md-6">
-			 <img src="https://via.placeholder.com/250x250" class="img-responsive">
-			</div> 
-		</div>
-	</div>
-	
-	<div class="container">
-		<div class="row">
-		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" >
-			<h4>The standard Lorem Ipsum passage</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			
-			 </div>
-		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-			 <img src="https://via.placeholder.com/250x250" class="img-responsive">
-			</div> 
-		</div>
-	</div>
-	
-	<div class="container">
-		<div class="row">
-		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" >
-			<h4>The standard Lorem Ipsum passage</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			
-			 </div>
-		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-			 <img src="https://via.placeholder.com/250x250" class="img-responsive">
-			</div> 
-		</div>
-	</div>
-	
-	<div class="container">
-		<div class="row">
-		<h4><a href="#hidden" data-toggle="collapse">More about me</a></h4>
-			<div id="hidden" class="collapse">
-			<h4>The standard Lorem Ipsum passage, used since the 1500s</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		
-			</div> 
-		</div>
-	</div>
-	
-	<footer class="container-fluid text-center">
-		<div class="row">
-				<div class="col-sm-4">
-				<h3>Contact Me</h3>
-				<br>
-				<h4>Address and Contact info</h4>
-				</div>
-			<div class="col-sm-4">
-				<h3>Connect</h3>
-				<a href="#" class="fa fa-facebook"></a>
-				<a href="#" class="fa fa-twitter"></a>
-				<a href="#" class="fa fa-google-plus"></a>
-				<a href="#" class="fa fa-linkedin"></a>
-				</div>
-			<div class="col-sm-4">
-				<img src="img/BBD.png" id="icon">
-				</div>
-		</div>
-	</footer>
+<!-- <script type="text/javascript">
+   (function() {
+    var burger = document.querySelector('.burger');
+    var menu = document.querySelector('#'+burger.dataset.target);
+    burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+    });
+    })();
+    </script> -->
+
+  <!-- Header -->
+  <section class="hero is-link is-fullheight is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">
+        Hello! I am
+        <h1 class="title is-1">
+          James Purchase &#128578
+        </h1>
+        <h2 class="subtitle is-3">
+          <span class="txt-rotate"
+                data-period="2000"
+                data-rotate='["Web Developer", "UX Designer", "Sleepy a lot", "Decent video game player","Getting in computers"]'></span>
+        
+        </h2>
+      </div>
+    </div>
+   <!--  <script async type="text/javascript" src="/_javascript/main.js"></script> -->
+  </section>
+  <!-- <script type="text/javascript">
+
+  var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 150 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+
+
+</script>
+ -->
+
+<section class="section" id="about">
+    <!-- Title -->
+    <div class="section-heading">
+      <h3 class="title is-2">About Me</h3>
+      <h4 class="subtitle is-5">Motivated by the lasting effects of my work on others</h4>
+      <div class="container">
+        <p>Well rounded developer with more than <strong>5 years</strong> of experience providing technology service solutions. I am passionate about developing impactful, high-performance web applications. In addition to strong coding skills, I have a sound understanding of UX concepts, excellent communication skills, and I am self-motivated to achieve results in a fast-paced environment. Most importantly, I have a deep sense of ownership and pride in my work product.
+
+      </p>
+      </div>
+    </div>
+
+    <div class="columns has-same-height is-gapless">
+      <div class="column">
+        <!-- Profile -->
+        <div class="card">
+          <div class="card-content">
+            <h3 class="title is-4">Profile</h3>
+
+            <div class="content">
+              <table class="table-profile">
+                <tr>
+                  <th colspan="1"></th>
+                  <th colspan="2"></th>
+                </tr>
+                <tr>
+                  <td>Location:</td>
+                  <td>
+                    <span class="tag" data-selected="true"> WASHINGTON, DC</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Dev Tools:</td>
+
+                  <td>
+                    <span class="tag" data-selected="true">GITHUB</span>
+                    <span class="tag">SUBLIME TEXT</span>
+                    <span class="tag">VS CODE</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>jimmy.312dev@gmail.com</td>
+                </tr>
+              </table>
+            </div>
+            <br>
+            <div class="buttons has-addons is-centered">
+              <a href="https://github.com/jim312" class="button is-link"><i class="fab fa-github"></i><span>Github</span></a>
+              <a href="https://www.linkedin.com/in/james-purchase-9b9136122" class="button is-link"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+              <!--<a href="#" class="button is-link">''</a>
+              <a href="#" class="button is-link">''</a>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="column">
+        <!-- Skills -->
+        <div class="card">
+          <div class="card-content skills-content">
+            <h3 class="title is-4">Skills</h3>
+            <div class="content">
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>JavaScript:</strong>
+                      <br>
+                      <progress class="progress is-primary" value="50" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>UX/UI Design:</strong>
+                      <br>
+                      <progress class="progress is-primary" value="50" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Angular.js:</strong>
+                      <br>
+                      <progress class="progress is-primary" value="40" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>HTML5/CSS3</strong>
+                      <br>
+                      <progress class="progress is-primary" value="75" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="section" id="resume">
+    <div class="section-heading">
+      <h3 class="title is-2">Resume</h3>
+      <h4 class="subtitle is-5">Where I've worked</h4>
+      <a href="https://drive.google.com/open?id=1G6BWT5808ZXfZLO1Jc_fwXwfwWsxlklN" target="_blank" class="button is-link is-medium">
+        <span class="icon">
+          <i class="fas fa-file-alt"></i>
+        </span>
+        <span>Download My Resume</span>
+      </a>
+    </div>
+  </section>
+
+
+
+    <!-- Footer -->
+  <footer class="footer">
+    <div class="section-heading">
+      <p>Crafted by James Purchase</p>
+
+      <p>
+        <a href="https://bulma.io">
+<img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="128" height="24">
+</a>
+      </p>
+    </div>
+  </footer>
 
 </body>
+<script type="text/javascript" src="js/main.js"></script>
 </html>
